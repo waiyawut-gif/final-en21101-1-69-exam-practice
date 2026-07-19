@@ -55,7 +55,7 @@ function ReviewPage() {
       })
       .filter(Boolean) as Array<{
       q: ReturnType<typeof flattenExam>[number];
-      r: (typeof result.perQuestion)[number] | undefined;
+      r: ExamResult["perQuestion"][number] | undefined;
       status: "correct" | "wrong" | "skipped";
       choices: string[];
     }>;
