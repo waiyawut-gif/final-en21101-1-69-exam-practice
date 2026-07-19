@@ -24,7 +24,7 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import type { Exam } from "@/types/exam";
+import type { Exam, ExamResult } from "@/types/exam";
 import { formatTime } from "@/utils/exam-utils";
 import { loadResult } from "@/utils/storage";
 import { ThemeToggle } from "@/components/ThemeToggle";
