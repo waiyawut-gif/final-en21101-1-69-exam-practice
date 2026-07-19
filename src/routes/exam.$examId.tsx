@@ -346,9 +346,9 @@ function ExamPage() {
         <div
           role="dialog"
           aria-modal="true"
-          className="fixed inset-0 z-50 grid place-items-center bg-black/50 p-4 animate-fade-in"
+          className="fixed inset-0 z-50 grid place-items-center bg-black/50 p-4 animate-in fade-in-0 duration-200"
         >
-          <div className="w-full max-w-md rounded-2xl border border-border bg-card p-6 shadow-xl animate-scale-in">
+          <div className="w-full max-w-md rounded-2xl border border-border bg-card p-6 shadow-xl animate-in zoom-in-95 duration-200">
             <h3 className="font-serif text-xl font-bold">Submit your exam?</h3>
             <p className="mt-2 text-sm text-muted-foreground">
               You have answered <b>{answered}</b> of <b>{total}</b> questions.{" "}
