@@ -1,0 +1,224 @@
+{
+  "id": "formative-test-1",
+  "title": "Formative Test 1 — English Grammar (M.1)",
+  "description": "Warm-up test on basic tenses, articles, and everyday vocabulary.",
+  "duration": 30,
+  "totalQuestions": 15,
+  "difficulty": "Easy",
+  "sections": [
+    {
+      "part": "Part A",
+      "title": "Grammar Multiple Choice",
+      "instructions": "Directions: Choose the best answer to complete each sentence.",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "multiple-choice",
+          "topic": "Present Simple",
+          "difficulty": "easy",
+          "question": "She ______ to school every day.",
+          "choices": ["go", "goes", "going", "gone"],
+          "answer": "goes",
+          "explanation": "Third person singular (she/he/it) in the present simple takes -s: goes.",
+          "points": 1
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "topic": "Articles",
+          "difficulty": "easy",
+          "question": "I saw ______ elephant at the zoo.",
+          "choices": ["a", "an", "the", "—"],
+          "answer": "an",
+          "explanation": "Use 'an' before a vowel sound: an elephant.",
+          "points": 1
+        },
+        {
+          "id": "q3",
+          "type": "multiple-choice",
+          "topic": "Prepositions",
+          "difficulty": "easy",
+          "question": "The book is ______ the table.",
+          "choices": ["in", "on", "at", "by"],
+          "answer": "on",
+          "explanation": "'On' is used for a surface such as a table.",
+          "points": 1
+        },
+        {
+          "id": "q4",
+          "type": "multiple-choice",
+          "topic": "Present Continuous",
+          "difficulty": "easy",
+          "question": "Look! The baby ______ .",
+          "choices": ["cry", "cries", "is crying", "crying"],
+          "answer": "is crying",
+          "explanation": "Use present continuous for actions happening now.",
+          "points": 1
+        },
+        {
+          "id": "q5",
+          "type": "multiple-choice",
+          "topic": "Pronouns",
+          "difficulty": "easy",
+          "question": "This pen is ______ . I bought it yesterday.",
+          "choices": ["my", "mine", "me", "I"],
+          "answer": "mine",
+          "explanation": "'Mine' is a possessive pronoun that stands alone.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "part": "Part A",
+      "title": "Grammar in Context",
+      "instructions": "Directions: Read the short passage and choose the correct word for each blank.",
+      "questions": [
+        {
+          "id": "q6",
+          "type": "grammar-in-context",
+          "topic": "Verb Tenses",
+          "difficulty": "medium",
+          "question": "Every morning, Anna ______ (6) breakfast at seven o'clock.",
+          "choices": ["eat", "eats", "eating", "is eat"],
+          "answer": "eats",
+          "explanation": "Habitual action → present simple, third person singular.",
+          "points": 1
+        },
+        {
+          "id": "q7",
+          "type": "grammar-in-context",
+          "topic": "Prepositions of Time",
+          "difficulty": "medium",
+          "question": "She goes to school ______ (7) Monday to Friday.",
+          "choices": ["at", "on", "in", "from"],
+          "answer": "from",
+          "explanation": "'From ... to ...' describes a range of days.",
+          "points": 1
+        },
+        {
+          "id": "q8",
+          "type": "grammar-in-context",
+          "topic": "Conjunctions",
+          "difficulty": "medium",
+          "question": "She likes English ______ (8) she does not like math.",
+          "choices": ["and", "but", "so", "because"],
+          "answer": "but",
+          "explanation": "'But' contrasts two ideas.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "part": "Part A",
+      "title": "Error Identification",
+      "instructions": "Directions: Choose the underlined part that is grammatically incorrect.",
+      "questions": [
+        {
+          "id": "q9",
+          "type": "error-identification",
+          "topic": "Subject-Verb Agreement",
+          "difficulty": "medium",
+          "question": "My brother (A) don't (B) like (C) playing football on Sundays (D).",
+          "choices": ["A", "B", "C", "D"],
+          "answer": "B",
+          "explanation": "'My brother' is third person singular, so it should be 'doesn't'.",
+          "points": 1
+        },
+        {
+          "id": "q10",
+          "type": "error-identification",
+          "topic": "Articles",
+          "difficulty": "medium",
+          "question": "She is (A) a (B) honest (C) girl (D) in our class.",
+          "choices": ["A", "B", "C", "D"],
+          "answer": "B",
+          "explanation": "'Honest' begins with a vowel sound; use 'an'.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "part": "Part B",
+      "title": "Vocabulary",
+      "instructions": "Directions: Choose the word that best completes each sentence.",
+      "questions": [
+        {
+          "id": "q11",
+          "type": "vocabulary",
+          "topic": "Synonyms",
+          "difficulty": "easy",
+          "question": "The film was very ______ . I laughed a lot.",
+          "choices": ["boring", "funny", "sad", "quiet"],
+          "answer": "funny",
+          "explanation": "If you laughed a lot, the film was 'funny'.",
+          "points": 1
+        },
+        {
+          "id": "q12",
+          "type": "vocabulary",
+          "topic": "Antonyms",
+          "difficulty": "easy",
+          "question": "The opposite of 'expensive' is ______ .",
+          "choices": ["cheap", "rich", "big", "new"],
+          "answer": "cheap",
+          "explanation": "'Cheap' is the antonym of 'expensive'.",
+          "points": 1
+        },
+        {
+          "id": "q13",
+          "type": "vocabulary",
+          "topic": "Word Meaning",
+          "difficulty": "medium",
+          "question": "A person who teaches at a school is a ______ .",
+          "choices": ["doctor", "teacher", "farmer", "driver"],
+          "answer": "teacher",
+          "explanation": "A teacher teaches at a school.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "part": "Part A",
+      "title": "Reading Comprehension",
+      "instructions": "Directions: Read the passage and answer the questions that follow.",
+      "passages": [
+        {
+          "id": "p1",
+          "title": "My Best Friend",
+          "passage": "My best friend's name is Ploy. She is thirteen years old and lives near my house. Ploy has short black hair and dark brown eyes. She likes reading books and playing badminton after school. On weekends, we often go to the market with her mother to buy fruit. Ploy wants to be a doctor when she grows up because she loves helping people."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q14",
+          "type": "reading-comprehension",
+          "topic": "Main Idea",
+          "difficulty": "easy",
+          "question": "What is the passage mainly about?",
+          "choices": [
+            "A trip to the market",
+            "A description of Ploy",
+            "How to play badminton",
+            "A doctor's daily work"
+          ],
+          "answer": "A description of Ploy",
+          "explanation": "The passage describes who Ploy is, what she looks like, and what she likes.",
+          "passageId": "p1",
+          "points": 1
+        },
+        {
+          "id": "q15",
+          "type": "reading-comprehension",
+          "topic": "Detail",
+          "difficulty": "easy",
+          "question": "What does Ploy want to be in the future?",
+          "choices": ["A teacher", "A farmer", "A doctor", "A nurse"],
+          "answer": "A doctor",
+          "explanation": "The last sentence says 'Ploy wants to be a doctor'.",
+          "passageId": "p1",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}
