@@ -1,0 +1,20 @@
+[
+  {
+    "id": "formative-test-1",
+    "file": "/exams/formative-test-1.json",
+    "title": "Formative Test 1 — English Grammar (M.1)",
+    "description": "A short warm-up test covering basic tenses, articles, and vocabulary for Grade 7 (Mathayom 1) students.",
+    "duration": 30,
+    "totalQuestions": 15,
+    "difficulty": "Easy"
+  },
+  {
+    "id": "midterm",
+    "file": "/exams/midterm.json",
+    "title": "Midterm Examination — English Grammar (M.1)",
+    "description": "Comprehensive midterm covering grammar in context, error identification, reading comprehension, and vocabulary.",
+    "duration": 60,
+    "totalQuestions": 20,
+    "difficulty": "Medium"
+  }
+]
