@@ -25,8 +25,14 @@ type Filter = "all" | "correct" | "wrong" | "skipped";
 function ReviewPage() {
   const { examId } = Route.useParams();
   const { data: exam } = useQuery({ queryKey: ["exam", examId], queryFn: () => fetchExam(examId) });
-  const result = loadResult(examId);
-  const progress = loadProgress(examId);
+  const [result, setResult] = useState<ExamResult | null>(null);
+  const [progress, setProgress] = useState<ExamProgress | null>(null);
+  const [ready, setReady] = useState(false);
+  useEffect(() => {
+    setResult(loadResult(examId));
+    setProgress(loadProgress(examId));
+    setReady(true);
+  }, [examId]);
   const [filter, setFilter] = useState<Filter>("all");
 
   const items = useMemo(() => {
