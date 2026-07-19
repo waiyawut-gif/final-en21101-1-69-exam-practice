@@ -41,7 +41,14 @@ async function fetchExam(examId: string): Promise<Exam> {
 function ResultPage() {
   const { examId } = Route.useParams();
   const { data: exam } = useQuery({ queryKey: ["exam", examId], queryFn: () => fetchExam(examId) });
-  const result = loadResult(examId);
+  const [result, setResult] = useState<ReturnType<typeof loadResult>>(null);
+  const [ready, setReady] = useState(false);
+  useEffect(() => {
+    setResult(loadResult(examId));
+    setReady(true);
+  }, [examId]);
+
+  if (!ready) return <div className="grid min-h-screen place-items-center bg-background" />;
 
   if (!result || !exam) {
     return (
