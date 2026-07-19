@@ -42,7 +42,7 @@ async function fetchExam(examId: string): Promise<Exam> {
 function ResultPage() {
   const { examId } = Route.useParams();
   const { data: exam } = useQuery({ queryKey: ["exam", examId], queryFn: () => fetchExam(examId) });
-  const [result, setResult] = useState<ReturnType<typeof loadResult>>(null);
+  const [result, setResult] = useState<ExamResult | null>(null);
   const [ready, setReady] = useState(false);
   useEffect(() => {
     setResult(loadResult(examId));
