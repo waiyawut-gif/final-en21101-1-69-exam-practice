@@ -4,7 +4,6 @@ import { useEffect, useState } from "react";
 import {
   Award,
   CheckCircle2,
-  Clock,
   Home,
   ListChecks,
   RotateCcw,
