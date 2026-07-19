@@ -103,8 +103,9 @@ function ExamPage() {
     updateProgress((p) => ({ ...p, answers: { ...p.answers, [qid]: choice } }));
   const clearAnswer = (qid: string) =>
     updateProgress((p) => {
-      const { [qid]: _, ...rest } = p.answers;
-      return { ...p, answers: rest };
+      const next = { ...p.answers };
+      delete next[qid];
+      return { ...p, answers: next };
     });
   const toggleMark = (qid: string) =>
     updateProgress((p) => ({
