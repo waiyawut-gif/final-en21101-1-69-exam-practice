@@ -177,18 +177,14 @@ function ExamPage() {
   const total = orderedQuestions.length;
   const pct = (answered / total) * 100;
 
-  const sectionQuestions = orderedQuestions.filter(
-    (q) => q.sectionIndex === current.sectionIndex,
-  );
-  const passageRange =
-    current.passage &&
-    passageGroupRange(sectionQuestions, current.passage.id) &&
-    (() => {
-      const r = passageGroupRange(sectionQuestions, current.passage!.id)!;
-      const inGroup = orderedQuestions.filter((q) => q.passageId === current.passage!.id);
+  let passageRange: string | undefined;
+  if (current.passage) {
+    const inGroup = orderedQuestions.filter((q) => q.passageId === current.passage!.id);
+    if (inGroup.length > 1) {
       const nums = inGroup.map((q) => q.number).sort((a, b) => a - b);
-      return `Questions ${nums[0]}–${nums[nums.length - 1]}`;
-    })();
+      passageRange = `Questions ${nums[0]}–${nums[nums.length - 1]}`;
+    }
+  }
 
   return (
     <div className="min-h-screen bg-background text-foreground">
