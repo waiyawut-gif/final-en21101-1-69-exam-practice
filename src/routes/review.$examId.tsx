@@ -7,7 +7,8 @@ import { loadProgress, loadResult } from "@/utils/storage";
 import { QuestionRenderer } from "@/components/QuestionRenderer";
 import { ReadingPassageView } from "@/components/ReadingPassageView";
 import { ThemeToggle } from "@/components/ThemeToggle";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import type { ExamProgress, ExamResult } from "@/types/exam";
 
 export const Route = createFileRoute("/review/$examId")({
   component: ReviewPage,
