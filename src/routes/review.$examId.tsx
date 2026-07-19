@@ -63,6 +63,8 @@ function ReviewPage() {
 
   const filtered = items.filter((i) => filter === "all" || i.status === filter);
 
+  if (!ready) return <div className="grid min-h-screen place-items-center bg-background" />;
+
   if (!exam || !result) {
     return (
       <div className="grid min-h-screen place-items-center bg-background p-6 text-center">
