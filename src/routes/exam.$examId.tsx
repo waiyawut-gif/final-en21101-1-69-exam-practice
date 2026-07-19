@@ -15,7 +15,6 @@ import {
   computeResult,
   flattenExam,
   initProgress,
-  passageGroupRange,
 } from "@/utils/exam-utils";
 import { clearProgress, loadProgress, saveProgress, saveResult } from "@/utils/storage";
 import { ExamTimer } from "@/components/ExamTimer";
