@@ -1,0 +1,296 @@
+{
+  "id": "midterm",
+  "title": "Midterm Examination — English Grammar (M.1)",
+  "description": "Covers grammar, error identification, reading comprehension, and vocabulary.",
+  "duration": 60,
+  "totalQuestions": 20,
+  "difficulty": "Medium",
+  "sections": [
+    {
+      "part": "Part A",
+      "title": "Grammar Multiple Choice",
+      "instructions": "Directions: Choose the best answer to complete each sentence.",
+      "questions": [
+        {
+          "id": "m1",
+          "type": "multiple-choice",
+          "topic": "Past Simple",
+          "difficulty": "medium",
+          "question": "Yesterday, my father ______ home late from work.",
+          "choices": ["come", "comes", "came", "coming"],
+          "answer": "came",
+          "explanation": "'Yesterday' signals past simple; the past form of 'come' is 'came'.",
+          "points": 1
+        },
+        {
+          "id": "m2",
+          "type": "multiple-choice",
+          "topic": "Modal Verbs",
+          "difficulty": "medium",
+          "question": "You ______ finish your homework before you play games.",
+          "choices": ["can", "must", "may", "would"],
+          "answer": "must",
+          "explanation": "'Must' expresses necessity or obligation.",
+          "points": 1
+        },
+        {
+          "id": "m3",
+          "type": "multiple-choice",
+          "topic": "Comparatives",
+          "difficulty": "medium",
+          "question": "This exercise is ______ than the last one.",
+          "choices": ["easy", "easier", "easiest", "more easy"],
+          "answer": "easier",
+          "explanation": "Short adjective + '-er' forms the comparative.",
+          "points": 1
+        },
+        {
+          "id": "m4",
+          "type": "multiple-choice",
+          "topic": "Question Words",
+          "difficulty": "easy",
+          "question": "______ is your birthday? — It's in June.",
+          "choices": ["What", "Where", "When", "Who"],
+          "answer": "When",
+          "explanation": "'When' asks about time.",
+          "points": 1
+        },
+        {
+          "id": "m5",
+          "type": "multiple-choice",
+          "topic": "Quantifiers",
+          "difficulty": "medium",
+          "question": "There isn't ______ milk in the fridge.",
+          "choices": ["many", "much", "few", "a lot"],
+          "answer": "much",
+          "explanation": "'Much' is used with uncountable nouns like 'milk' in negatives.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "part": "Part A",
+      "title": "Grammar in Context",
+      "instructions": "Directions: Read the paragraph and choose the correct word for each blank.",
+      "passages": [
+        {
+          "id": "gc1",
+          "title": "My Weekend",
+          "passage": "Last Saturday, I ___(6)___ to the park with my family. The weather ___(7)___ beautiful, and there ___(8)___ many people enjoying the sunshine. We had a picnic under a big tree and played frisbee for hours."
+        }
+      ],
+      "questions": [
+        {
+          "id": "m6",
+          "type": "grammar-in-context",
+          "topic": "Past Simple",
+          "difficulty": "medium",
+          "question": "Blank (6): I ______ to the park.",
+          "choices": ["go", "went", "gone", "going"],
+          "answer": "went",
+          "explanation": "'Last Saturday' → past simple 'went'.",
+          "passageId": "gc1",
+          "points": 1
+        },
+        {
+          "id": "m7",
+          "type": "grammar-in-context",
+          "topic": "Past Simple (Be)",
+          "difficulty": "medium",
+          "question": "Blank (7): The weather ______ beautiful.",
+          "choices": ["is", "are", "was", "were"],
+          "answer": "was",
+          "explanation": "'The weather' is singular in past → 'was'.",
+          "passageId": "gc1",
+          "points": 1
+        },
+        {
+          "id": "m8",
+          "type": "grammar-in-context",
+          "topic": "There was/were",
+          "difficulty": "medium",
+          "question": "Blank (8): There ______ many people.",
+          "choices": ["was", "were", "is", "are"],
+          "answer": "were",
+          "explanation": "'Many people' is plural in past → 'were'.",
+          "passageId": "gc1",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "part": "Part A",
+      "title": "Error Identification",
+      "instructions": "Directions: Choose the underlined part that is grammatically incorrect.",
+      "questions": [
+        {
+          "id": "m9",
+          "type": "error-identification",
+          "topic": "Verb Tense",
+          "difficulty": "hard",
+          "question": "She (A) has went (B) to the (C) library yesterday (D).",
+          "choices": ["A", "B", "C", "D"],
+          "answer": "B",
+          "explanation": "With 'yesterday', use past simple 'went' (not 'has gone/went').",
+          "points": 1
+        },
+        {
+          "id": "m10",
+          "type": "error-identification",
+          "topic": "Preposition",
+          "difficulty": "medium",
+          "question": "We (A) are waiting (B) for the bus (C) since (D) 8 o'clock.",
+          "choices": ["A", "B", "C", "D"],
+          "answer": "A",
+          "explanation": "With 'since', use present perfect continuous: 'have been waiting'.",
+          "points": 1
+        },
+        {
+          "id": "m11",
+          "type": "error-identification",
+          "topic": "Countable/Uncountable",
+          "difficulty": "medium",
+          "question": "There are (A) too (B) much (C) students (D) in the classroom.",
+          "choices": ["A", "B", "C", "D"],
+          "answer": "C",
+          "explanation": "'Students' is countable → use 'many', not 'much'.",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "part": "Part A",
+      "title": "Reading Comprehension",
+      "instructions": "Directions: Read the passage and answer the questions that follow. Questions 12–15 refer to this passage.",
+      "passages": [
+        {
+          "id": "rp1",
+          "title": "The School Library",
+          "passage": "Our school library is a quiet and comfortable place. It opens from Monday to Friday between 8 a.m. and 4 p.m. Students can borrow up to three books at one time and keep them for one week. The library has over five thousand books in both Thai and English, as well as computers with free internet for research. Ms. Somsri, the librarian, is always happy to help students find the books they need. Every Wednesday afternoon, the library holds a reading club where students share their favourite stories.\n\nStudents must be quiet inside the library. Food and drinks are not allowed. Students who lose or damage a book must pay to replace it."
+        }
+      ],
+      "questions": [
+        {
+          "id": "m12",
+          "type": "reading-comprehension",
+          "topic": "Detail",
+          "difficulty": "easy",
+          "question": "How many books can a student borrow at one time?",
+          "choices": ["One", "Two", "Three", "Five"],
+          "answer": "Three",
+          "explanation": "The passage says 'up to three books at one time'.",
+          "passageId": "rp1",
+          "points": 1
+        },
+        {
+          "id": "m13",
+          "type": "reading-comprehension",
+          "topic": "Detail",
+          "difficulty": "easy",
+          "question": "When does the reading club meet?",
+          "choices": [
+            "Monday morning",
+            "Tuesday afternoon",
+            "Wednesday afternoon",
+            "Friday evening"
+          ],
+          "answer": "Wednesday afternoon",
+          "explanation": "'Every Wednesday afternoon, the library holds a reading club'.",
+          "passageId": "rp1",
+          "points": 1
+        },
+        {
+          "id": "m14",
+          "type": "reading-comprehension",
+          "topic": "Inference",
+          "difficulty": "medium",
+          "question": "Which action is NOT allowed in the library?",
+          "choices": [
+            "Reading a book",
+            "Using a computer",
+            "Eating a snack",
+            "Asking the librarian for help"
+          ],
+          "answer": "Eating a snack",
+          "explanation": "'Food and drinks are not allowed.'",
+          "passageId": "rp1",
+          "points": 1
+        },
+        {
+          "id": "m15",
+          "type": "reading-comprehension",
+          "topic": "Vocabulary in Context",
+          "difficulty": "medium",
+          "question": "The word 'damage' in the last paragraph is closest in meaning to ______ .",
+          "choices": ["clean", "harm", "return", "read"],
+          "answer": "harm",
+          "explanation": "'Damage' means to harm or break something.",
+          "passageId": "rp1",
+          "points": 1
+        }
+      ]
+    },
+    {
+      "part": "Part B",
+      "title": "Vocabulary",
+      "instructions": "Directions: Choose the word that best completes each sentence.",
+      "questions": [
+        {
+          "id": "m16",
+          "type": "vocabulary",
+          "topic": "Word Meaning",
+          "difficulty": "medium",
+          "question": "My grandfather is very ______ ; he always tells the truth.",
+          "choices": ["lazy", "honest", "shy", "rude"],
+          "answer": "honest",
+          "explanation": "Someone who tells the truth is honest.",
+          "points": 1
+        },
+        {
+          "id": "m17",
+          "type": "vocabulary",
+          "topic": "Collocations",
+          "difficulty": "medium",
+          "question": "Please ______ a photo of us before we leave.",
+          "choices": ["do", "make", "take", "have"],
+          "answer": "take",
+          "explanation": "The collocation is 'take a photo'.",
+          "points": 1
+        },
+        {
+          "id": "m18",
+          "type": "vocabulary",
+          "topic": "Antonyms",
+          "difficulty": "easy",
+          "question": "What is the opposite of 'brave'?",
+          "choices": ["kind", "afraid", "strong", "clever"],
+          "answer": "afraid",
+          "explanation": "'Afraid' is the opposite of 'brave'.",
+          "points": 1
+        },
+        {
+          "id": "m19",
+          "type": "vocabulary",
+          "topic": "Synonyms",
+          "difficulty": "medium",
+          "question": "The word 'huge' means almost the same as ______ .",
+          "choices": ["tiny", "empty", "enormous", "narrow"],
+          "answer": "enormous",
+          "explanation": "'Huge' and 'enormous' both mean very big.",
+          "points": 1
+        },
+        {
+          "id": "m20",
+          "type": "vocabulary",
+          "topic": "Word Formation",
+          "difficulty": "hard",
+          "question": "Her ______ in the competition surprised everyone. (success)",
+          "choices": ["succeed", "success", "successful", "successfully"],
+          "answer": "success",
+          "explanation": "A noun is needed after 'Her'; the noun form is 'success'.",
+          "points": 1
+        }
+      ]
+    }
+  ]
+}
