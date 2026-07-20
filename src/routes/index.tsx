@@ -121,8 +121,8 @@ function ExamCard({ exam }: { exam: ExamManifestEntry }) {
         )}
       </div>
 
-      <h3 className="font-serif text-xl font-bold leading-tight">{exam.title}</h3>
-      <p className="mt-2 flex-1 text-sm text-muted-foreground">{exam.description}</p>
+      <h3 className="whitespace-pre-line font-serif text-xl font-bold leading-tight">{exam.title.replace(" — ", "\n")}</h3>
+      <p className="mt-2 flex-1 text-sm text-muted-foreground"></p>
 
       <div className="mt-4 grid grid-cols-3 gap-3 text-xs">
         <Meta icon={<ListChecks className="h-3.5 w-3.5" />} label="Questions" value={String(exam.totalQuestions)} />
