@@ -77,14 +77,14 @@ function HomePage() {
         </div>
 
         <div className="mt-12 rounded-2xl border border-border bg-card p-6 shadow-sm">
-          <h3 className="mb-3 font-serif text-lg font-bold">Examination Instructions</h3>
+          <h3 className="mb-3 font-serif text-lg font-bold"></h3>
           <ul className="grid gap-2 text-sm text-muted-foreground sm:grid-cols-2">
-            <li>• You cannot pause the timer once the exam has started.</li>
-            <li>• Answers are saved automatically after each response.</li>
-            <li>• The exam will submit automatically when time runs out.</li>
-            <li>• A warning appears when less than 5 minutes remain.</li>
-            <li>• Use the navigator panel to jump between questions.</li>
-            <li>• You may mark questions for review before submitting.</li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
           </ul>
         </div>
       </main>
