@@ -31,9 +31,9 @@ function HomePage() {
               <GraduationCap className="h-5 w-5" />
             </div>
             <div className="leading-tight">
-              <div className="text-sm font-bold">M.1 English Exam</div>
+              <div className="text-sm font-bold">M.1 English Exam Practice</div>
               <div className="text-[11px] text-muted-foreground">
-                Grade 7 Grammar Examination Platform
+                อ21101 ภาษาอังกฤษ 1
               </div>
             </div>
           </Link>
