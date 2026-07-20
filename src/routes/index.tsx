@@ -31,9 +31,9 @@ function HomePage() {
               <GraduationCap className="h-5 w-5" />
             </div>
             <div className="leading-tight">
-              <div className="text-sm font-bold">M.1 English Exam</div>
+              <div className="text-sm font-bold">M.1 English Exam Practice</div>
               <div className="text-[11px] text-muted-foreground">
-                Grade 7 Grammar Examination Platform
+                อ21101 ภาษาอังกฤษ 1
               </div>
             </div>
           </Link>
@@ -49,11 +49,10 @@ function HomePage() {
           <h1 className="mx-auto max-w-3xl font-serif text-4xl font-bold leading-tight tracking-tight sm:text-5xl">
             English Grammar Examination
             <br />
-            <span className="text-primary">for Mathayom 1 (Grade 7)</span>
+            <span className="text-primary">EN 21101 English 1</span>
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-base text-muted-foreground sm:text-lg">
-            A professional online examination platform. Choose a test below to begin. Your
-            progress is saved automatically — you can safely refresh the page.
+            
           </p>
         </div>
       </section>
@@ -78,14 +77,14 @@ function HomePage() {
         </div>
 
         <div className="mt-12 rounded-2xl border border-border bg-card p-6 shadow-sm">
-          <h3 className="mb-3 font-serif text-lg font-bold">Examination Instructions</h3>
+          <h3 className="mb-3 font-serif text-lg font-bold"></h3>
           <ul className="grid gap-2 text-sm text-muted-foreground sm:grid-cols-2">
-            <li>• You cannot pause the timer once the exam has started.</li>
-            <li>• Answers are saved automatically after each response.</li>
-            <li>• The exam will submit automatically when time runs out.</li>
-            <li>• A warning appears when less than 5 minutes remain.</li>
-            <li>• Use the navigator panel to jump between questions.</li>
-            <li>• You may mark questions for review before submitting.</li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
           </ul>
         </div>
       </main>
@@ -122,8 +121,8 @@ function ExamCard({ exam }: { exam: ExamManifestEntry }) {
         )}
       </div>
 
-      <h3 className="font-serif text-xl font-bold leading-tight">{exam.title}</h3>
-      <p className="mt-2 flex-1 text-sm text-muted-foreground">{exam.description}</p>
+      <h3 className="whitespace-pre-line font-serif text-xl font-bold leading-tight">{exam.title.replace(" — ", "\n")}</h3>
+      <p className="mt-2 flex-1 text-sm text-muted-foreground"></p>
 
       <div className="mt-4 grid grid-cols-3 gap-3 text-xs">
         <Meta icon={<ListChecks className="h-3.5 w-3.5" />} label="Questions" value={String(exam.totalQuestions)} />
