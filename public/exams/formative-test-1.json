@@ -1,7 +1,7 @@
 {
   "id": "formative-test-1",
   "title": "Formative Test 1 — English Grammar (M.1)",
-  "description": "Warm-up test on basic tenses, articles, and everyday vocabulary.",
+  "description": "Warm-up test on singular & plural nouns, demonstratives, imperatives, present tenses, and comparative & superlative adjectives.",
   "duration": 30,
   "totalQuestions": 15,
   "difficulty": "Easy",
@@ -14,56 +14,56 @@
         {
           "id": "q1",
           "type": "multiple-choice",
-          "topic": "Present Simple",
+          "topic": "Introduction 0.2: Singular & Plural Nouns, Demonstratives, and Imperatives",
           "difficulty": "easy",
-          "question": "She ______ to school every day.",
-          "choices": ["go", "goes", "going", "gone"],
-          "answer": "goes",
-          "explanation": "Third person singular (she/he/it) in the present simple takes -s: goes.",
+          "question": "I have two ______ in my school bag.",
+          "choices": ["book", "books", "bookes", "a book"],
+          "answer": "books",
+          "explanation": "Regular plural nouns add -s: two books.",
           "points": 1
         },
         {
           "id": "q2",
           "type": "multiple-choice",
-          "topic": "Articles",
+          "topic": "Introduction 0.2: Singular & Plural Nouns, Demonstratives, and Imperatives",
           "difficulty": "easy",
-          "question": "I saw ______ elephant at the zoo.",
-          "choices": ["a", "an", "the", "—"],
-          "answer": "an",
-          "explanation": "Use 'an' before a vowel sound: an elephant.",
+          "question": "______ is my sister. She is ten years old.",
+          "choices": ["This", "These", "Those", "They"],
+          "answer": "This",
+          "explanation": "Use the singular demonstrative 'This' for one person near the speaker.",
           "points": 1
         },
         {
           "id": "q3",
           "type": "multiple-choice",
-          "topic": "Prepositions",
+          "topic": "Introduction 0.2: Singular & Plural Nouns, Demonstratives, and Imperatives",
           "difficulty": "easy",
-          "question": "The book is ______ the table.",
-          "choices": ["in", "on", "at", "by"],
-          "answer": "on",
-          "explanation": "'On' is used for a surface such as a table.",
+          "question": "______ the door, please. It is cold outside.",
+          "choices": ["Closes", "Closing", "Close", "Closed"],
+          "answer": "Close",
+          "explanation": "Imperatives use the base form of the verb: Close the door.",
           "points": 1
         },
         {
           "id": "q4",
           "type": "multiple-choice",
-          "topic": "Present Continuous",
+          "topic": "Unit 3: Present Continuous Tense, Present Simple vs. Present Continuous Tense",
           "difficulty": "easy",
           "question": "Look! The baby ______ .",
           "choices": ["cry", "cries", "is crying", "crying"],
           "answer": "is crying",
-          "explanation": "Use present continuous for actions happening now.",
+          "explanation": "Use the present continuous (is + -ing) for actions happening now.",
           "points": 1
         },
         {
           "id": "q5",
           "type": "multiple-choice",
-          "topic": "Pronouns",
+          "topic": "Unit 3: Present Continuous Tense, Present Simple vs. Present Continuous Tense",
           "difficulty": "easy",
-          "question": "This pen is ______ . I bought it yesterday.",
-          "choices": ["my", "mine", "me", "I"],
-          "answer": "mine",
-          "explanation": "'Mine' is a possessive pronoun that stands alone.",
+          "question": "She usually ______ to school by bus.",
+          "choices": ["go", "goes", "is going", "going"],
+          "answer": "goes",
+          "explanation": "'Usually' signals a routine → present simple, third person singular: goes.",
           "points": 1
         }
       ]
@@ -76,34 +76,34 @@
         {
           "id": "q6",
           "type": "grammar-in-context",
-          "topic": "Verb Tenses",
+          "topic": "Unit 4: Comparative & Superlative Adjectives",
           "difficulty": "medium",
-          "question": "Every morning, Anna ______ (6) breakfast at seven o'clock.",
-          "choices": ["eat", "eats", "eating", "is eat"],
-          "answer": "eats",
-          "explanation": "Habitual action → present simple, third person singular.",
+          "question": "My brother is ______ (6) than me.",
+          "choices": ["tall", "taller", "tallest", "more tall"],
+          "answer": "taller",
+          "explanation": "Short adjectives form the comparative with -er: taller than.",
           "points": 1
         },
         {
           "id": "q7",
           "type": "grammar-in-context",
-          "topic": "Prepositions of Time",
+          "topic": "Unit 4: Comparative & Superlative Adjectives",
           "difficulty": "medium",
-          "question": "She goes to school ______ (7) Monday to Friday.",
-          "choices": ["at", "on", "in", "from"],
-          "answer": "from",
-          "explanation": "'From ... to ...' describes a range of days.",
+          "question": "Mount Everest is the ______ (7) mountain in the world.",
+          "choices": ["high", "higher", "highest", "most high"],
+          "answer": "highest",
+          "explanation": "Short adjectives form the superlative with 'the' + -est: the highest.",
           "points": 1
         },
         {
           "id": "q8",
           "type": "grammar-in-context",
-          "topic": "Conjunctions",
+          "topic": "Unit 4: Comparative & Superlative Adjectives",
           "difficulty": "medium",
-          "question": "She likes English ______ (8) she does not like math.",
-          "choices": ["and", "but", "so", "because"],
-          "answer": "but",
-          "explanation": "'But' contrasts two ideas.",
+          "question": "This book is ______ (8) interesting than that one.",
+          "choices": ["more", "most", "much", "very"],
+          "answer": "more",
+          "explanation": "Longer adjectives use 'more' for the comparative: more interesting than.",
           "points": 1
         }
       ]
@@ -116,23 +116,23 @@
         {
           "id": "q9",
           "type": "error-identification",
-          "topic": "Subject-Verb Agreement",
+          "topic": "Introduction 0.2: Singular & Plural Nouns, Demonstratives, and Imperatives",
           "difficulty": "medium",
-          "question": "My brother (A) don't (B) like (C) playing football on Sundays (D).",
+          "question": "There (A) are (B) three (C) child (D) in the room.",
           "choices": ["A", "B", "C", "D"],
-          "answer": "B",
-          "explanation": "'My brother' is third person singular, so it should be 'doesn't'.",
+          "answer": "D",
+          "explanation": "'Child' has an irregular plural: children.",
           "points": 1
         },
         {
           "id": "q10",
           "type": "error-identification",
-          "topic": "Articles",
+          "topic": "Unit 3: Present Continuous Tense, Present Simple vs. Present Continuous Tense",
           "difficulty": "medium",
-          "question": "She is (A) a (B) honest (C) girl (D) in our class.",
+          "question": "She (A) is (B) watch (C) TV (D) now.",
           "choices": ["A", "B", "C", "D"],
-          "answer": "B",
-          "explanation": "'Honest' begins with a vowel sound; use 'an'.",
+          "answer": "C",
+          "explanation": "The time marker 'now' requires the present continuous: is watching.",
           "points": 1
         }
       ]
@@ -145,34 +145,34 @@
         {
           "id": "q11",
           "type": "vocabulary",
-          "topic": "Synonyms",
+          "topic": "Unit 4: Comparative & Superlative Adjectives",
           "difficulty": "easy",
-          "question": "The film was very ______ . I laughed a lot.",
-          "choices": ["boring", "funny", "sad", "quiet"],
-          "answer": "funny",
-          "explanation": "If you laughed a lot, the film was 'funny'.",
+          "question": "An elephant is ______ than a dog.",
+          "choices": ["big", "bigger", "biggest", "more big"],
+          "answer": "bigger",
+          "explanation": "Comparative of 'big' doubles the consonant and adds -er: bigger.",
           "points": 1
         },
         {
           "id": "q12",
           "type": "vocabulary",
-          "topic": "Antonyms",
+          "topic": "Introduction 0.2: Singular & Plural Nouns, Demonstratives, and Imperatives",
           "difficulty": "easy",
-          "question": "The opposite of 'expensive' is ______ .",
-          "choices": ["cheap", "rich", "big", "new"],
-          "answer": "cheap",
-          "explanation": "'Cheap' is the antonym of 'expensive'.",
+          "question": "Please pass me ______ pencils on your desk.",
+          "choices": ["this", "that", "those", "it"],
+          "answer": "those",
+          "explanation": "'Pencils' is plural and far from the speaker → 'those'.",
           "points": 1
         },
         {
           "id": "q13",
           "type": "vocabulary",
-          "topic": "Word Meaning",
+          "topic": "Unit 3: Present Continuous Tense, Present Simple vs. Present Continuous Tense",
           "difficulty": "medium",
-          "question": "A person who teaches at a school is a ______ .",
-          "choices": ["doctor", "teacher", "farmer", "driver"],
-          "answer": "teacher",
-          "explanation": "A teacher teaches at a school.",
+          "question": "Right now, I ______ my homework in my room.",
+          "choices": ["do", "does", "am doing", "doing"],
+          "answer": "am doing",
+          "explanation": "'Right now' → present continuous (am/is/are + -ing).",
           "points": 1
         }
       ]
@@ -184,37 +184,37 @@
       "passages": [
         {
           "id": "p1",
-          "title": "My Best Friend",
-          "passage": "My best friend's name is Ploy. She is thirteen years old and lives near my house. Ploy has short black hair and dark brown eyes. She likes reading books and playing badminton after school. On weekends, we often go to the market with her mother to buy fruit. Ploy wants to be a doctor when she grows up because she loves helping people."
+          "title": "In the Classroom",
+          "passage": "It is Monday morning. The students are sitting in their classroom. Mr. Somsak, the English teacher, is writing on the board. 'Open your books to page ten,' he says. 'Read the story quietly.' Two boys are looking out the window at the birds. There are three pictures on the wall. These pictures show animals from the zoo."
         }
       ],
       "questions": [
         {
           "id": "q14",
           "type": "reading-comprehension",
-          "topic": "Main Idea",
+          "topic": "Unit 3: Present Continuous Tense, Present Simple vs. Present Continuous Tense",
           "difficulty": "easy",
-          "question": "What is the passage mainly about?",
+          "question": "What are the students doing right now?",
           "choices": [
-            "A trip to the market",
-            "A description of Ploy",
-            "How to play badminton",
-            "A doctor's daily work"
+            "They are sitting in the classroom.",
+            "They are playing in the garden.",
+            "They are eating lunch.",
+            "They are reading at home."
           ],
-          "answer": "A description of Ploy",
-          "explanation": "The passage describes who Ploy is, what she looks like, and what she likes.",
+          "answer": "They are sitting in the classroom.",
+          "explanation": "The passage says 'The students are sitting in their classroom' (present continuous).",
           "passageId": "p1",
           "points": 1
         },
         {
           "id": "q15",
           "type": "reading-comprehension",
-          "topic": "Detail",
+          "topic": "Introduction 0.2: Singular & Plural Nouns, Demonstratives, and Imperatives",
           "difficulty": "easy",
-          "question": "What does Ploy want to be in the future?",
-          "choices": ["A teacher", "A farmer", "A doctor", "A nurse"],
-          "answer": "A doctor",
-          "explanation": "The last sentence says 'Ploy wants to be a doctor'.",
+          "question": "How many pictures are on the wall?",
+          "choices": ["One", "Two", "Three", "Four"],
+          "answer": "Three",
+          "explanation": "The passage says 'There are three pictures on the wall' — 'pictures' is a plural noun.",
           "passageId": "p1",
           "points": 1
         }

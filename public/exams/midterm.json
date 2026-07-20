@@ -1,7 +1,7 @@
 {
   "id": "midterm",
   "title": "Midterm Examination — English Grammar (M.1)",
-  "description": "Covers grammar, error identification, reading comprehension, and vocabulary.",
+  "description": "Covers singular & plural nouns, demonstratives, imperatives, present simple vs. present continuous, and comparative & superlative adjectives.",
   "duration": 60,
   "totalQuestions": 20,
   "difficulty": "Medium",
@@ -14,56 +14,56 @@
         {
           "id": "m1",
           "type": "multiple-choice",
-          "topic": "Past Simple",
+          "topic": "Introduction 0.2: Singular & Plural Nouns, Demonstratives, and Imperatives",
           "difficulty": "medium",
-          "question": "Yesterday, my father ______ home late from work.",
-          "choices": ["come", "comes", "came", "coming"],
-          "answer": "came",
-          "explanation": "'Yesterday' signals past simple; the past form of 'come' is 'came'.",
+          "question": "I have three ______ at home.",
+          "choices": ["child", "childs", "children", "childrens"],
+          "answer": "children",
+          "explanation": "'Child' is an irregular plural noun: children.",
           "points": 1
         },
         {
           "id": "m2",
           "type": "multiple-choice",
-          "topic": "Modal Verbs",
+          "topic": "Introduction 0.2: Singular & Plural Nouns, Demonstratives, and Imperatives",
           "difficulty": "medium",
-          "question": "You ______ finish your homework before you play games.",
-          "choices": ["can", "must", "may", "would"],
-          "answer": "must",
-          "explanation": "'Must' expresses necessity or obligation.",
+          "question": "______ are my new shoes over there.",
+          "choices": ["This", "That", "These", "Those"],
+          "answer": "Those",
+          "explanation": "'Shoes' is plural and far away → the demonstrative 'Those'.",
           "points": 1
         },
         {
           "id": "m3",
           "type": "multiple-choice",
-          "topic": "Comparatives",
+          "topic": "Unit 4: Comparative & Superlative Adjectives",
           "difficulty": "medium",
-          "question": "This exercise is ______ than the last one.",
-          "choices": ["easy", "easier", "easiest", "more easy"],
-          "answer": "easier",
-          "explanation": "Short adjective + '-er' forms the comparative.",
+          "question": "A car is ______ than a bicycle.",
+          "choices": ["fast", "faster", "fastest", "more fast"],
+          "answer": "faster",
+          "explanation": "Short adjective + -er forms the comparative: faster than.",
           "points": 1
         },
         {
           "id": "m4",
           "type": "multiple-choice",
-          "topic": "Question Words",
-          "difficulty": "easy",
-          "question": "______ is your birthday? — It's in June.",
-          "choices": ["What", "Where", "When", "Who"],
-          "answer": "When",
-          "explanation": "'When' asks about time.",
+          "topic": "Unit 4: Comparative & Superlative Adjectives",
+          "difficulty": "medium",
+          "question": "This is the ______ book in the library.",
+          "choices": ["interesting", "more interesting", "most interesting", "interestinger"],
+          "answer": "most interesting",
+          "explanation": "Longer adjectives use 'the most' for the superlative.",
           "points": 1
         },
         {
           "id": "m5",
           "type": "multiple-choice",
-          "topic": "Quantifiers",
-          "difficulty": "medium",
-          "question": "There isn't ______ milk in the fridge.",
-          "choices": ["many", "much", "few", "a lot"],
-          "answer": "much",
-          "explanation": "'Much' is used with uncountable nouns like 'milk' in negatives.",
+          "topic": "Unit 3: Present Continuous Tense, Present Simple vs. Present Continuous Tense",
+          "difficulty": "easy",
+          "question": "Every day she ______ to school with her friends.",
+          "choices": ["walk", "walks", "is walking", "walking"],
+          "answer": "walks",
+          "explanation": "'Every day' is a routine → present simple, third person singular: walks.",
           "points": 1
         }
       ]
@@ -75,44 +75,44 @@
       "passages": [
         {
           "id": "gc1",
-          "title": "My Weekend",
-          "passage": "Last Saturday, I ___(6)___ to the park with my family. The weather ___(7)___ beautiful, and there ___(8)___ many people enjoying the sunshine. We had a picnic under a big tree and played frisbee for hours."
+          "title": "A Sunday Afternoon",
+          "passage": "My family lives in Chiang Mai. Every Sunday, we ___(6)___ to the park together. Right now, my father ___(7)___ a book under a tree, and my little sister ___(8)___ with the dog."
         }
       ],
       "questions": [
         {
           "id": "m6",
           "type": "grammar-in-context",
-          "topic": "Past Simple",
+          "topic": "Unit 3: Present Continuous Tense, Present Simple vs. Present Continuous Tense",
           "difficulty": "medium",
-          "question": "Blank (6): I ______ to the park.",
-          "choices": ["go", "went", "gone", "going"],
-          "answer": "went",
-          "explanation": "'Last Saturday' → past simple 'went'.",
+          "question": "Blank (6): Every Sunday, we ______ to the park.",
+          "choices": ["go", "goes", "is going", "are going"],
+          "answer": "go",
+          "explanation": "'Every Sunday' signals a routine → present simple with 'we': go.",
           "passageId": "gc1",
           "points": 1
         },
         {
           "id": "m7",
           "type": "grammar-in-context",
-          "topic": "Past Simple (Be)",
+          "topic": "Unit 3: Present Continuous Tense, Present Simple vs. Present Continuous Tense",
           "difficulty": "medium",
-          "question": "Blank (7): The weather ______ beautiful.",
-          "choices": ["is", "are", "was", "were"],
-          "answer": "was",
-          "explanation": "'The weather' is singular in past → 'was'.",
+          "question": "Blank (7): Right now, my father ______ a book.",
+          "choices": ["read", "reads", "is reading", "are reading"],
+          "answer": "is reading",
+          "explanation": "'Right now' → present continuous: is reading.",
           "passageId": "gc1",
           "points": 1
         },
         {
           "id": "m8",
           "type": "grammar-in-context",
-          "topic": "There was/were",
+          "topic": "Unit 3: Present Continuous Tense, Present Simple vs. Present Continuous Tense",
           "difficulty": "medium",
-          "question": "Blank (8): There ______ many people.",
-          "choices": ["was", "were", "is", "are"],
-          "answer": "were",
-          "explanation": "'Many people' is plural in past → 'were'.",
+          "question": "Blank (8): My little sister ______ with the dog.",
+          "choices": ["play", "plays", "is playing", "are playing"],
+          "answer": "is playing",
+          "explanation": "Action happening at this moment → present continuous: is playing.",
           "passageId": "gc1",
           "points": 1
         }
@@ -126,34 +126,34 @@
         {
           "id": "m9",
           "type": "error-identification",
-          "topic": "Verb Tense",
+          "topic": "Unit 4: Comparative & Superlative Adjectives",
           "difficulty": "hard",
-          "question": "She (A) has went (B) to the (C) library yesterday (D).",
+          "question": "This exercise is (A) more (B) easier (C) than (D) the last one.",
           "choices": ["A", "B", "C", "D"],
-          "answer": "B",
-          "explanation": "With 'yesterday', use past simple 'went' (not 'has gone/went').",
+          "answer": "A",
+          "explanation": "Do not use 'more' with an -er comparative. Say 'easier than', not 'more easier than'.",
           "points": 1
         },
         {
           "id": "m10",
           "type": "error-identification",
-          "topic": "Preposition",
+          "topic": "Introduction 0.2: Singular & Plural Nouns, Demonstratives, and Imperatives",
           "difficulty": "medium",
-          "question": "We (A) are waiting (B) for the bus (C) since (D) 8 o'clock.",
+          "question": "Look at (A) those (B) woman (C) over (D) there.",
           "choices": ["A", "B", "C", "D"],
-          "answer": "A",
-          "explanation": "With 'since', use present perfect continuous: 'have been waiting'.",
+          "answer": "B",
+          "explanation": "'Those' is plural, so the noun must be plural: women.",
           "points": 1
         },
         {
           "id": "m11",
           "type": "error-identification",
-          "topic": "Countable/Uncountable",
+          "topic": "Unit 3: Present Continuous Tense, Present Simple vs. Present Continuous Tense",
           "difficulty": "medium",
-          "question": "There are (A) too (B) much (C) students (D) in the classroom.",
+          "question": "She (A) is (B) go (C) to school (D) now.",
           "choices": ["A", "B", "C", "D"],
           "answer": "C",
-          "explanation": "'Students' is countable → use 'many', not 'much'.",
+          "explanation": "With 'now' and 'is', use the -ing form: going.",
           "points": 1
         }
       ]
@@ -165,66 +165,61 @@
       "passages": [
         {
           "id": "rp1",
-          "title": "The School Library",
-          "passage": "Our school library is a quiet and comfortable place. It opens from Monday to Friday between 8 a.m. and 4 p.m. Students can borrow up to three books at one time and keep them for one week. The library has over five thousand books in both Thai and English, as well as computers with free internet for research. Ms. Somsri, the librarian, is always happy to help students find the books they need. Every Wednesday afternoon, the library holds a reading club where students share their favourite stories.\n\nStudents must be quiet inside the library. Food and drinks are not allowed. Students who lose or damage a book must pay to replace it."
+          "title": "A Day in Bangkok",
+          "passage": "Bangkok is one of the largest cities in Thailand. Its population is bigger than the population of any other city in the country. Right now, many tourists are visiting the city. They are taking photos of the Grand Palace and walking along the Chao Phraya River. There are also many street markets. These markets sell fresh fruit, hot food, and small gifts. The most popular market is Chatuchak, which opens on weekends. It is the biggest weekend market in Asia."
         }
       ],
       "questions": [
         {
           "id": "m12",
           "type": "reading-comprehension",
-          "topic": "Detail",
+          "topic": "Unit 4: Comparative & Superlative Adjectives",
           "difficulty": "easy",
-          "question": "How many books can a student borrow at one time?",
-          "choices": ["One", "Two", "Three", "Five"],
-          "answer": "Three",
-          "explanation": "The passage says 'up to three books at one time'.",
+          "question": "According to the passage, Chatuchak is the ______ weekend market in Asia.",
+          "choices": ["bigger", "biggest", "big", "more big"],
+          "answer": "biggest",
+          "explanation": "The passage says 'It is the biggest weekend market in Asia' — superlative form.",
           "passageId": "rp1",
           "points": 1
         },
         {
           "id": "m13",
           "type": "reading-comprehension",
-          "topic": "Detail",
+          "topic": "Unit 3: Present Continuous Tense, Present Simple vs. Present Continuous Tense",
           "difficulty": "easy",
-          "question": "When does the reading club meet?",
+          "question": "What are the tourists doing at the Grand Palace right now?",
           "choices": [
-            "Monday morning",
-            "Tuesday afternoon",
-            "Wednesday afternoon",
-            "Friday evening"
+            "They are taking photos.",
+            "They are buying fruit.",
+            "They are eating lunch.",
+            "They are sleeping."
           ],
-          "answer": "Wednesday afternoon",
-          "explanation": "'Every Wednesday afternoon, the library holds a reading club'.",
+          "answer": "They are taking photos.",
+          "explanation": "'They are taking photos of the Grand Palace' — present continuous.",
           "passageId": "rp1",
           "points": 1
         },
         {
           "id": "m14",
           "type": "reading-comprehension",
-          "topic": "Inference",
+          "topic": "Introduction 0.2: Singular & Plural Nouns, Demonstratives, and Imperatives",
           "difficulty": "medium",
-          "question": "Which action is NOT allowed in the library?",
-          "choices": [
-            "Reading a book",
-            "Using a computer",
-            "Eating a snack",
-            "Asking the librarian for help"
-          ],
-          "answer": "Eating a snack",
-          "explanation": "'Food and drinks are not allowed.'",
+          "question": "Which of the following from the passage is a plural noun?",
+          "choices": ["city", "river", "tourists", "palace"],
+          "answer": "tourists",
+          "explanation": "'Tourists' ends in -s and refers to more than one — a plural noun.",
           "passageId": "rp1",
           "points": 1
         },
         {
           "id": "m15",
           "type": "reading-comprehension",
-          "topic": "Vocabulary in Context",
+          "topic": "Unit 4: Comparative & Superlative Adjectives",
           "difficulty": "medium",
-          "question": "The word 'damage' in the last paragraph is closest in meaning to ______ .",
-          "choices": ["clean", "harm", "return", "read"],
-          "answer": "harm",
-          "explanation": "'Damage' means to harm or break something.",
+          "question": "The passage says Bangkok's population is ______ than the population of any other city.",
+          "choices": ["big", "bigger", "biggest", "the most big"],
+          "answer": "bigger",
+          "explanation": "The comparative 'bigger than' is used to compare two things.",
           "passageId": "rp1",
           "points": 1
         }
@@ -233,61 +228,71 @@
     {
       "part": "Part B",
       "title": "Vocabulary",
-      "instructions": "Directions: Choose the word that best completes each sentence.",
+      "instructions": "Directions: Choose the word or sentence that best answers each question.",
       "questions": [
         {
           "id": "m16",
           "type": "vocabulary",
-          "topic": "Word Meaning",
+          "topic": "Introduction 0.2: Singular & Plural Nouns, Demonstratives, and Imperatives",
           "difficulty": "medium",
-          "question": "My grandfather is very ______ ; he always tells the truth.",
-          "choices": ["lazy", "honest", "shy", "rude"],
-          "answer": "honest",
-          "explanation": "Someone who tells the truth is honest.",
+          "question": "The plural of 'mouse' is ______ .",
+          "choices": ["mouses", "mice", "mouse", "mices"],
+          "answer": "mice",
+          "explanation": "'Mouse' has an irregular plural form: mice.",
           "points": 1
         },
         {
           "id": "m17",
           "type": "vocabulary",
-          "topic": "Collocations",
+          "topic": "Unit 4: Comparative & Superlative Adjectives",
           "difficulty": "medium",
-          "question": "Please ______ a photo of us before we leave.",
-          "choices": ["do", "make", "take", "have"],
-          "answer": "take",
-          "explanation": "The collocation is 'take a photo'.",
+          "question": "The comparative form of 'good' is ______ .",
+          "choices": ["gooder", "better", "best", "more good"],
+          "answer": "better",
+          "explanation": "'Good' is irregular: good → better → best.",
           "points": 1
         },
         {
           "id": "m18",
           "type": "vocabulary",
-          "topic": "Antonyms",
-          "difficulty": "easy",
-          "question": "What is the opposite of 'brave'?",
-          "choices": ["kind", "afraid", "strong", "clever"],
-          "answer": "afraid",
-          "explanation": "'Afraid' is the opposite of 'brave'.",
+          "topic": "Unit 4: Comparative & Superlative Adjectives",
+          "difficulty": "medium",
+          "question": "The superlative form of 'bad' is ______ .",
+          "choices": ["baddest", "worse", "worst", "most bad"],
+          "answer": "worst",
+          "explanation": "'Bad' is irregular: bad → worse → worst.",
           "points": 1
         },
         {
           "id": "m19",
           "type": "vocabulary",
-          "topic": "Synonyms",
+          "topic": "Introduction 0.2: Singular & Plural Nouns, Demonstratives, and Imperatives",
           "difficulty": "medium",
-          "question": "The word 'huge' means almost the same as ______ .",
-          "choices": ["tiny", "empty", "enormous", "narrow"],
-          "answer": "enormous",
-          "explanation": "'Huge' and 'enormous' both mean very big.",
+          "question": "Which sentence is an imperative?",
+          "choices": [
+            "She opens the door.",
+            "Open the door, please.",
+            "The door is open.",
+            "Is the door open?"
+          ],
+          "answer": "Open the door, please.",
+          "explanation": "An imperative gives a command and starts with the base form of the verb.",
           "points": 1
         },
         {
           "id": "m20",
           "type": "vocabulary",
-          "topic": "Word Formation",
+          "topic": "Unit 3: Present Continuous Tense, Present Simple vs. Present Continuous Tense",
           "difficulty": "hard",
-          "question": "Her ______ in the competition surprised everyone. (success)",
-          "choices": ["succeed", "success", "successful", "successfully"],
-          "answer": "success",
-          "explanation": "A noun is needed after 'Her'; the noun form is 'success'.",
+          "question": "Which sentence is in the present continuous tense?",
+          "choices": [
+            "I read a book every night.",
+            "I am reading a book now.",
+            "I read a book yesterday.",
+            "I will read a book tomorrow."
+          ],
+          "answer": "I am reading a book now.",
+          "explanation": "Present continuous = am/is/are + verb-ing, describing an action happening now.",
           "points": 1
         }
       ]
