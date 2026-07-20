@@ -49,11 +49,10 @@ function HomePage() {
           <h1 className="mx-auto max-w-3xl font-serif text-4xl font-bold leading-tight tracking-tight sm:text-5xl">
             English Grammar Examination
             <br />
-            <span className="text-primary">for Mathayom 1 (Grade 7)</span>
+            <span className="text-primary">EN 21101 English 1</span>
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-base text-muted-foreground sm:text-lg">
-            A professional online examination platform. Choose a test below to begin. Your
-            progress is saved automatically — you can safely refresh the page.
+            
           </p>
         </div>
       </section>
